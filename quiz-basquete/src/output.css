@@ -190,6 +190,9 @@
   .flex {
     display: flex;
   }
+  .grid {
+    display: grid;
+  }
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
@@ -210,6 +213,12 @@
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
   }
   .border-\[\#f4f4f4\] {
     border-color: #f4f4f4;

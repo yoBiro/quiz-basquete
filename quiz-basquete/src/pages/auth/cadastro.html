@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basecoat-css@0.3.11/dist/basecoat.cdn.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/basecoat-css@0.3.11/dist/js/all.min.js" defer></script>
+    <link href="../../output.css" rel="stylesheet">
+    <link href="../../styles/style.css" rel="stylesheet">
+    <link href="../../styles/glass.css" rel="stylesheet">
+    <link href="../../styles/cadastro.css" rel="stylesheet">
+</head>
+<body>
+
+    <form class="form grid gap-6 form">
+        <div class="grid gap-2" >
+          <label for="demo-form-text">Nome</label>
+          <input type="text" name="nome" id="demo-form-text" placeholder="Insira seu nome">
+          
+        </div>
+      
+        <div class="grid gap-2 form">
+          <label for="demo-form-select">Email</label>
+          <input type="text" name="email" id="demo-form-text" placeholder="Insira seu email">
+        </div>
+      
+        <div class="grid gap-2 form">
+            <label for="demo-form-select">Endereço</label>
+            <input type="text" name="endereco" id="demo-form-text" placeholder="Insira seu endereço">
+          </div>
+      
+        <div class="grid gap-2 form">
+          <label for="demo-form-date">Data de nascimento</label>
+          <input type="date" name="dataNascimento" id="demo-form-date">
+        </div>
+
+          <fieldset class="grid gap-3 form">
+            <p>Selecione seu gênero</p>
+            <label class="label"><input type="radio" name="sexo" value="Masc" checked class="input">Masculino</label>
+            <label class="label"><input type="radio" name="sexo" value="Fem" checked class="input" checked>Feminino</label>
+            <label class="label"><input type="radio" name="sexo" value="Outro" checked class="input">Outro</label>
+          </fieldset>
+
+          <div class="form">
+            <label for="">ESTADO</label>
+            <select name="estado" id="">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+
+            </select>
+        </div>
+
+        <button type="submit" class="btn">
+          <a href="./confirmarCadastro.html">Concluir</a>
+        </button>
+      </form>
+    
+      <script type="module" src="../../scripts/auth/cadastro.js"></script>
+</body>
+</html>
